@@ -1,0 +1,176 @@
+
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: Georgia, serif;
+  font-size: 20px;
+  /* font-style: italic; */
+  background: #f2f2f2;
+  background-image: url(../images/background.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 750px;
+  padding: 40px;
+  margin: 0 auto;
+  border: 1px solid #ddd;
+  box-shadow: 0px 0px 16px #aaa;
+}
+
+a{
+  text-decoration: none;
+}
+
+a:link, a:visited, a:hover, a:active{
+  color: #f2f2f2;
+}
+/* #content{
+  background-color: #fff;
+  width: 750px;
+  padding: 40px;
+  margin: 0 auto;
+  border-left: 30px solid #1D81B6;
+  border-right: 1px solid #ddd;
+}
+.head{
+  font-family: Helvetica,Arial,Verdana;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 12px;
+  font-style: normal;
+  letter-spacing: 3px;
+  color: #888;
+  border-bottom: 3px solid #f2f2f2;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+.head a{
+  color: #1cb58f;
+  text-decoration: none;
+  float: right;
+  text-shadow: 1px 1px 1px #888;
+} */
+
+h1{
+  /* font-family: "Trebuchet MS",sans-serif; */
+  font-family: 'Monofett', cursive;
+  color: #f9f9f9;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 56px;
+  text-shadow: 1px 1px 1px #aaa;
+}
+/* #content h2{
+  font-family: "Trebuchet MS",sans-serif;
+  font-size: 34px;
+  font-style: normal;
+  background-color: #f2f2f2;
+  margin: 40px 0px 30px -40px;
+  padding: 0px 40px;
+  clear: both;
+  float: left;
+  width: 100%;
+  color: #aaa;
+  text-shadow: 1px 1px 1px #fff;
+} */
+
+.table{
+  font-family: Georgia, serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: normal;
+  letter-spacing: -1px;
+  line-height: 1.2em;
+  text-align: center;
+  overflow: hidden;
+}
+
+.table th{
+  text-align: right;
+  padding: 10px;
+  color: #333;
+  text-shadow: 1px 1px 1px #ccc;
+  background-color: #f9f9f9;
+}
+.table td{
+  padding: 10px;
+  background-color: #f2f2f2;
+  border-right: 1px dotted #999;
+  text-shadow: -1px 1px 1px #fff;
+  color: #333;
+}
+
+
+
+.table .planet_name th{
+  text-align: center;
+  padding: 20px 10px 40px 10px;
+  color: #fff;
+  font-size: 26px;
+  background-color: #222;
+  border-right: 1px dotted #666;
+  border-top: 3px solid #666;
+  box-shadow: 0px -1px 4px #000;
+  text-shadow: 1px 1px 1px #000;
+  text-transform: uppercase;
+  color: #f29326;
+}
+
+.table .planet_name th:empty{
+  background: transparent;
+  box-shadow: none;
+  border: none;
+}
+
+.table .planet_name:first-child,
+.table:nth-last-child(1){
+  border: none;
+}
+
+.table td:hover{
+  background-color:lightblue;
+}
+
+/* #page-wrapper {
+	width: 960px;
+	background-color: blue;
+	margin: 0 auto;
+}
+
+header {
+	background-color: #888;
+	height: 80px;
+	text-align: center;
+	font-size: 20px;
+} */
+
+footer {
+  font-family: Calibri, sans-serif;
+  font-size: 15px;
+	/* background-color: #99e6ff; */
+  background-color: #222;
+	/* height: 80px; */
+	clear: both;
+  /* overflow: hidden; */
+  color: #f2f2f2;
+}
+
+.contact_info { 
+  float: right; 
+}
+
+/* #main-content {
+	background-color: red;
+	float: left;
+	width: 73%;
+	height: 800px;
+}
+
+#sidebar {
+	float: left;
+	width: 27%;
+	background-color: yellow;
+} */

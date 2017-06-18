@@ -1,4 +1,3 @@
-
 *{
   margin: 0;
   padding: 0;
@@ -26,6 +25,10 @@ a{
 
 a:link, a:visited, a:hover, a:active{
   color: #f2f2f2;
+}
+
+a:hover{
+  text-shadow: 1px 1px 5px;
 }
 /* #content{
   background-color: #fff;
@@ -77,6 +80,11 @@ h1{
   text-shadow: 1px 1px 1px #fff;
 } */
 
+img:hover {
+  box-shadow: 1px 1px 10px white;
+  margin-top: -10px;
+}
+
 .table{
   font-family: Georgia, serif;
   font-size: 18px;
@@ -102,8 +110,6 @@ h1{
   text-shadow: -1px 1px 1px #fff;
   color: #333;
 }
-
-
 
 .table .planet_name th{
   text-align: center;
@@ -131,8 +137,37 @@ h1{
 }
 
 .table td:hover{
-  background-color:lightblue;
+  background-color: lightblue;
 }
+
+/* td, th, .row, .col {
+    cursor: pointer;
+    position: relative;
+}
+
+td:hover::before,
+.row:hover::before {
+    background-color: lightblue;
+    content: '\00a0';
+    height: 100%;
+    left: -5000px;
+    position: absolute;
+    top: 0;
+    width: 10000px;
+    z-index: -1;
+}
+
+td:hover::after,
+.col:hover::after {
+    background-color: lightblue;
+    content: '\00a0';
+    height: 10000px;
+    left: 0;
+    position: absolute;
+    top: -5000px;
+    width: 100%;
+    z-index: -1;
+} */
 
 /* #page-wrapper {
 	width: 960px;
@@ -158,8 +193,8 @@ footer {
   color: #f2f2f2;
 }
 
-.contact_info { 
-  float: right; 
+.contact_info {
+  float: right;
 }
 
 /* #main-content {
